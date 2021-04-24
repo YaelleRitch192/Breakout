@@ -3,6 +3,10 @@ void intro() {
   fill(255);
   sealion.rewind();
   camel.play();
+  lose.pause();
+  lose.rewind();
+  frogs.rewind();
+  sealion.pause();
   lives=3;
   score=0;
   paddlex=width/2;
